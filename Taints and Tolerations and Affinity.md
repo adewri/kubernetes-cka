@@ -1,8 +1,8 @@
-###Add Taint to Node:
+### Add Taint to Node:
 `kubectl taint nodes node1 key1=value1:NoSchedule`
 ###Remove Taint from Node:
 `kubectl taint nodes node1 key1=value1:NoSchedule-`
-###Add Toleration to pod:
+### Add Toleration to pod:
 
 ```coffee
 tolerations:
